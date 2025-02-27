@@ -1,0 +1,7 @@
+---
+- name: Create directory named Git_repository
+  hosts: win01
+  tasks:
+  - name: Create directory named Git_repository (task)
+    file:
+      state: present
